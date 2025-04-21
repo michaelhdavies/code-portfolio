@@ -120,6 +120,40 @@ nav>* {
     width: 80%;
 }
 
+@media (max-width: 1000px) {
+    .projCard {
+        width: 600px;
+        img {
+            max-width: 300px;
+        }
+        .cardContent {
+            width: 550px;
+        }    
+    }
+}
+
+@media (max-width: 800px) {
+    .projCard {
+        width: 400px;
+        height: 500px;
+    
+        img {
+            max-width: 300px;
+        }
+    
+        .cardContent {
+            flex-direction: column;
+            width: 350px;
+        }
+    
+        .infoDiv {
+            flex-direction: row;
+        }
+
+    
+    }
+}
+
 @media (max-width: 600px) {
     header {
         flex-direction: column;
