@@ -1,0 +1,132 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+form {
+    padding: 15px;
+    input {
+        margin: 5px;
+    }
+    textarea {
+        margin: 5px;
+    }
+    button {
+        margin: 15px;
+    }
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: #fffc64;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    color: #000;
+}
+
+nav>* {
+    text-decoration: none;
+    color: #000;
+
+    :hover {
+        color: #8b64ff;
+    }
+}
+
+.nav_active {
+    color: #5627e1;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projCard {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px black solid;
+    width: 800px;
+    height: 400px;
+    margin: 5px;
+
+    h2 {
+        border: 2px black solid;
+        font-size: 4rem;
+        margin: 15px;
+        padding: 4px;
+
+    }
+
+    img {
+        border: 2px black solid;
+        max-width: 350px;
+    }
+
+    .cardContent {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 750px;
+        border: 2px black solid;
+        padding: 5px;
+        margin: 15px;
+    }
+
+    .infoDiv {
+        display: flex;
+        flex-direction: column;
+        border: 2px black solid;
+        padding: 5px;
+
+        a {
+            padding: 5px;
+            border: 2px black solid;
+            margin: 5px;
+        }
+    }
+
+    .imgDiv {
+        padding: 5px;
+
+    }
+
+}
+
+
+
+#headshot {
+    width: 80%;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        max-width: 300px;
+    }
+}
