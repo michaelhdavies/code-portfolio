@@ -1,8 +1,44 @@
-# React + Vite
+  # Code-Portfolio   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  ## Description 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  This code portfolio showcases the developers previous work for potential employers to browse.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Table of Contents
+
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Dev](#dev)
+
+  ## Installation
+
+  Clone down the repo. Open root folder in terminal, install packages, and run the following command:
+  1. npm run dev
+
+  ## Usage
+
+  Navigate through the pages using the navbar in the header.
+
+  ### Mock-Up
+  ![](screenshots/screenshot-1.jpg)
+  ![](screenshots/screenshot-2.jpg)
+  ![](screenshots/screenshot-3.jpg)
+  ![](screenshots/screenshot-4.jpg)
+
+  ## License
+  This application is covered under the [MIT](https://opensource.org/licenses/MIT) license.
+  
+
+  ## Dev
+
+  Try the deployed [application](https://code-portfolio-slbq.onrender.com).
+
+  Check out the [repo](https://github.com/michaelhdavies/code-portfolio).
+
+  Developed by [Michael Henry Davies](https://github.com/michaelhdavies/).
+
+  [Back to Top](#description)
+  
+  

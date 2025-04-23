@@ -20,13 +20,13 @@ export default function Portfolio() {
     {
       title: "Page Timings",
       image: timings,
-      deployed: "",
+      deployed: "https://code-portfolio-slbq.onrender.com",
       repo: "https://github.com/carlbr3/Page-Timings"
     },
     {
       title: "The Lazy Gourmet",
       image: lazy,
-      deployed: "",
+      deployed: "https://code-portfolio-slbq.onrender.com",
       repo: "https://github.com/els-or/The-Lazy-Gourmet"
     },
     {
@@ -44,7 +44,7 @@ export default function Portfolio() {
     {
       title: "Code Portfolio",
       image: code,
-      deployed: "",
+      deployed: "https://code-portfolio-slbq.onrender.com",
       repo: "https://github.com/michaelhdavies/code-portfolio"
     },
   ]
